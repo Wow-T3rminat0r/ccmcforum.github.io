@@ -40,21 +40,19 @@ a:link, a:visited, a:hover, a:active {
 header {
   width: 100%;
   border: 1px solid #aaa;
+  text-align: center;
+  color: darkorange;
 }
 
 nav {
   border: 1px solid #aaa;
 }
 
-#menu {
-  
-}
-
-#menu li {
+li {
   list-style-type: none;
 }
 
-#menu li a {
+li a {
   text-decoration: none;
 }
 
@@ -71,10 +69,44 @@ section {
   border: 1px solid #aaa;
 }
 
+table {
+  column-width: auto;
+  width: 650px;
+  border: 2px solid black;
+}
+
+th {
+  height: 20px;
+  background-color:red;
+  color: white;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+td {
+  vertical-align: bottom;
+  height: 20px;
+  border: 1px solid green;
+}
+
+#jdate {
+  width: 125px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#event {
+  padding:0px 0px 0px 5px;
+  font-weight: bold;
+}
+
 aside {
   float: right;
   width: 275px;
-  border: 1px solid #aaa;
+}
+
+#cal {
+  width: 270px;
 }
 
 footer {
