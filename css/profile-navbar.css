@@ -1,0 +1,22 @@
+.profile-navbar-col1 {
+    width: 56%;
+    margin-right: 2%;
+    float: left;
+    height: 100%;
+    background-color: green;
+}
+
+.profile-navbar-col2 {
+    width: 20%;
+    margin-right: 2%;
+    float: left;
+    height: 100%;
+    background-color: tomato;
+}
+
+.profile-navbar-col3 {
+    width: 20%;
+    float:right;
+    height: 100%;
+    background-color: #ff22aa;
+}

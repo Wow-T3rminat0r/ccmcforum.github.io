@@ -1,0 +1,50 @@
+#now {
+  background-color: #d03c56;
+  color:white;
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  padding:5px;
+}
+
+.calendar_2021 {
+  width: 900px;
+  margin: 25px 0px 0px 0px;
+  display: block;
+}
+
+#cal_month {
+  color: green;
+}
+
+#cal_order_sun_heading, #cal_order_mon_heading, #cal_order_tues_heading, #cal_order_wed_heading, #cal_order_thurs_heading, #cal_order_fri_heading, #cal_order_sat_heading{
+  color: blue;
+}
+
+#section-left {
+    width: 300px;
+    float:left;
+    text-align: center;
+    margin: 0px;
+  }
+
+#section-center {
+    width: 300px;
+    float: left;
+    margin: 0px;
+  }
+
+#section-right {
+    width: 300px;
+    float: left;
+    margin: 0px;
+  }
+
+#cal-04, #cal-05, #cal-,
+#cal_order_sun, #cal_order_mon, #cal_order_tues, #cal_order_wed, #cal_order_thurs, #cal_order_fri, #cal_order_sat {
+    text-align: center;
+  }
+  
+#cal_order_sun {
+    color: red;
+  }

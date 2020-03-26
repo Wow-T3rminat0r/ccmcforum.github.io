@@ -1,135 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- イベント実行委員ホームページ -->
+<html lang="ja" class="gr__shoeisha_com">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <head>
+    <title>中央情報||イベント・ホームページ</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
 <body>
-  <header>
-    <h1>中央情報専門学校　||　掲示板</h1>
+  <header class="header">
+    <h1 class="logo">
+      <a href="http://ccmcforum.cf">中央情報専門学校・イベント</a>
+    </h1>
+    <nav class="global-nav">
+      <ul>
+      <li class="nav-item active"><a href="#">ホーム</a></li>
+      <li class="nav-item"><a href="./assets/events.html">イベント</a></li>
+      <li class="nav-item"><a href="./assets/images.html">写真集</a></li>
+      <li class="nav-item"><a href="./assets/calendar-2020.html">カレンダー</a></li>
+      <li class="nav-item"><a href="./assets/shukatsu.html">就活</a></li>
+      <li class="nav-item"><a href="https://ccmcforum.wixsite.com/2020">BLOG</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#">ホーム</a></li>
-      <li><a href="#">ブログ</a></li>
-      <li><a href="#">イベント</a></li>
-    </ul>
-  </nav>
-  <div>
-    <div class="wrapper" clearfix>
-      <aside>
-        <h3>カレンダー</h3>
-        <table id="cal">
-          <th id="cal_month" colspan="7">4月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun">日</td>
-            <td id="cal_order_mon">月</td>
-            <td id="cal_order_tues">火</td>
-            <td id="cal_order_wed">水</td>
-            <td id="cal_order_thurs">木</td>
-            <td id="cal_order_fri">金</td>
-            <td id="cal_order_sat">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs"></td>
-            <td id="cal_order_fri"></td>
-            <td id="cal_order_sat"></td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs"></td>
-            <td id="cal_order_fri"></td>
-            <td id="cal_order_sat"></td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs"></td>
-            <td id="cal_order_fri"></td>
-            <td id="cal_order_sat"></td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs"></td>
-            <td id="cal_order_fri"></td>
-            <td id="cal_order_sat"></td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs"></td>
-            <td id="cal_order_fri"></td>
-            <td id="cal_order_sat"></td>
-          </tr>
-        </table>
-      </aside>
-      <article>
-            <h3> 2020年04月のお知らせ</h3>
-              <table>
-                <tr>
-                  <th>日付</th>
-                  <th>プログラム名</th>
-                </tr>
-                <tr>
-                  <td id="jdate">2020年04月07日</td>
-                  <td id="event">入学式</td>
-                </tr>
-                <tr>
-                  <td id="jdate">2020年04月08日</td>
-                  <td id="event">オリエンテーション(クラス別)</td>
-                </tr>
-                <tr>
-                  <td id="jdate">2020年04月09日</td>
-                  <td id="event">オリエンテーション（全体・学科別）</td>
-                </tr>
-                <tr>
-                  <td id="jdate">2020年04月19日</td>
-                  <td id="event">写真撮影</td>
-                </tr>
-                <tr>
-                  <td id="jdate">2020年04月26日</td>
-                  <td id="event">1年生イベント</td>
-                </tr>
-                <tr>
-                  <td id="jdate">2020年04月29日</td>
-                  <td id="event">明和の日</td>
-                </tr>
-                <tr>
-                  <td id="jdate">2020年04月30日</td>
-                  <td id="event">国民の休日</td>
-                </tr>
-              </table>
-        <section>
-          <h3>2020年後期の予定</h3>
-        </section>
-      </article>
-      
+  <div class="wrapper clearfix">
+    <main class="main">
+      <h2 class="hidden">HOT TOPIC</h2>
+      <a href="#" class="hot-topic clearfix">
+        <img class="image" src="./images/hot-topic.jpg" alt="メンバーのグループ写真">
+        <div class="content">
+          <h3 class="title">実行委員会メンバー<br>メンバーの紹介</h3>
+          <p class="desc">右から左：斉藤先生、ランズ（上）、ウザル（下）、ソヤム（上）、キンコウ(下)、カケイ（上）、ミョミン(下)、フュフュ(上)</p>
+          <time class="date" datetime="2019-11-25">2019.11.25（金）</time>
+        </div>
+      </a>
+
+      <h2 class="heading">イベント</h2>
+      <ul class="scroll-list">
+        <li class="scroll-item">
+          <a href="http://www..com/#">
+            <time class="date" datetime="2019-11-25">2019.11.25（金）</time>
+            <span class="category news">イベント</span>
+            <span class="title">学修成果発表会2019を行いました。</span>
+          </a>
+        </li>
+        <li class="scroll-item">
+          <a href="http://www..com/#">
+            <time class="date" datetime="2019-12-13">2019.12.13（金）</time>
+            <span class="category news">イベント</span>
+            <span class="title">クリスマスパーティーを行いました。</span>
+          </a>
+        </li>
+        <li class="scroll-item">
+          <a href="http://www..com/#">
+            <time class="date" datetime="2020-01-06">2020.01.06（月）</time>
+            <span class="category">就職</span>
+            <span class="title">面接対策：スーツと服装について専門家からのガイダンス。</span>
+          </a>
+        </li>
+        <li class="scroll-item">
+          <a href="http://www..com/#">
+            <time class="date" datetime="2020-01-29">2020.01.29（水）</time>
+            <span class="category news">就職</span>
+            <span class="title">面接対策：面接について詳しく専門家（ある企業）から行う予定。</span>
+          </a>
+        </li>
+      </ul>
+
+      <h2 class="hidden">ARTICLES</h2>
+      <div class="clearfix">
+        <a href="http://#" class="article-box">
+          <h3 class="title">準備中</h3>
+          <p class="desc">準備中</p>
+          <time class="date" datetime="2015-06-17">準備中</time>
+          <img class="image" src="./images/article.jpg" alt="コーディング画面">
+        </a>
+        <a href="http://#" class="article-box">
+          <h3 class="title">準備中</h3>
+          <p class="desc">準備中</p>
+          <time class="date" datetime="2015-06-17">準備中</time>
+          <img class="image" src="./images/article.jpg" alt="コーディング画面">
+        </a>
+        <a href="http://#" class="article-box">
+          <h3 class="title">準備中</h3>
+          <p class="desc">準備中</p>
+          <time class="date" datetime="2015-06-17">準備中</time>
+          <img class="image" src="./images/article.jpg" alt="コーディング画面">
+        </a>
+        <a href="http://#" class="article-box">
+          <h3 class="title">準備中</h3>
+          <p class="desc">準備中</p>
+          <time class="date" datetime="2015-06-17">準備中</time>
+          <img class="image" src="./images/article.jpg" alt="コーディング画面">
+        </a>
+      </div>
+    </main>
+    <div class="sidemenu">
+      <h2 class="hidden">検索</h2>
+      <form class="search-box">
+        <input class="search-input" type="text" name="search" placeholder="SEARCH">
+        <input class="search-button" type="submit" value="検索">
+        <p class="text">サイト内の文章を検索できます。</p>
+      </form>
+      <h2 class="heading">準備中</h2>
+      <ul class="documents">
+        <li>
+          <h3 class="title">準備中</h3>
+          <ul>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://">準備中</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3 class="title">準備中</h3>
+          <ul>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://">準備中</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3 class="title">準備中</h3>
+          <ul>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://#">準備中</a></li>
+            <li><a href="http://">準備中</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3 class="title">準備中</h3>
+          <p>準備中</p>
+        </li>
+        <li>
+          <h3 class="title">準備中</h3>
+          <p>準備中</p>
+        </li>
+      </ul>
     </div>
-  <footer>
-    <h4>footer</h4>
-      -Contact Information
-      -Privacy Policy
-      -Social Media Icons
-      -Terms of Service
-      -Copyright Information
-      -Sitemap and Related Documents
+  </div>
+  <footer class="footer">
+    <ul class="horizontal-list">
+      <li class="horizontal-item"><a href="http://#">学校のホームページ</a></li>
+      <li class="horizontal-item"><a href="http://#">地図</a></li>
+      <li class="horizontal-item"><a href="http://#">SNS</a></li>
+      <li class="horizontal-item"><a href="http://#">問い合わせ</a></li>
     </ul>
+    <span class="copyright">Copyright © 2019~20 中央情報専門学校・イベント実行委員</span>
   </footer>
+
+
 </body>
+
 </html>
