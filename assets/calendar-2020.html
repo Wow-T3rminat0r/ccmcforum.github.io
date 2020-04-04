@@ -39,695 +39,720 @@
         </ul>
       </nav>
     </header>
-    <div id="now">
-      <h2 class="hidden">Time & Date</h2>
-      <input type="button" onclick="get_date();" value="現在の時間（日付）">
+    <div class="wrapper clearfix">
+      <main class="main">
+        <h2 class="hidden">HOT TOPIC</h2>
+        <div class="calendar_2021">
+          <div id="section-left">
+            <table id="cal-04">
+              <th id="cal_month" colspan="7">2020年4月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon"></td>
+                <td id="cal_order_tues"></td>
+                <td id="cal_order_wed">1</td>
+                <td id="cal_order_thurs">2</td>
+                <td id="cal_order_fri">3</td>
+                <td id="cal_order_sat">4</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">5</td>
+                <td id="cal_order_mon">6</td>
+                <td id="cal_order_tues">7</td>
+                <td id="cal_order_wed">8</td>
+                <td id="cal_order_thurs">9</td>
+                <td id="cal_order_fri">10</td>
+                <td id="cal_order_sat">11</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">12</td>
+                <td id="cal_order_mon">13</td>
+                <td id="cal_order_tues">14</td>
+                <td id="cal_order_wed">15</td>
+                <td id="cal_order_thurs">16</td>
+                <td id="cal_order_fri">17</td>
+                <td id="cal_order_sat">18</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">19</td>
+                <td id="cal_order_mon">20</td>
+                <td id="cal_order_tues">21</td>
+                <td id="cal_order_wed">22</td>
+                <td id="cal_order_thurs">23</td>
+                <td id="cal_order_fri">24</td>
+                <td id="cal_order_sat">25</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">26</td>
+                <td id="cal_order_mon">27</td>
+                <td id="cal_order_tues">28</td>
+                <td id="cal_order_wed">29</td>
+                <td id="cal_order_thurs">30</td>
+              </tr>
+            </table>
+            <br />
+            <table id="cal-07">
+              <th id="cal_month" colspan="7">2020年7月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon"></td>
+                <td id="cal_order_tues"></td>
+                <td id="cal_order_wed">1</td>
+                <td id="cal_order_thurs">2</td>
+                <td id="cal_order_fri">3</td>
+                <td id="cal_order_sat">4</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">5</td>
+                <td id="cal_order_mon">6</td>
+                <td id="cal_order_tues">7</td>
+                <td id="cal_order_wed">8</td>
+                <td id="cal_order_thurs">9</td>
+                <td id="cal_order_fri">10</td>
+                <td id="cal_order_sat">11</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">12</td>
+                <td id="cal_order_mon">13</td>
+                <td id="cal_order_tues">14</td>
+                <td id="cal_order_wed">15</td>
+                <td id="cal_order_thurs">16</td>
+                <td id="cal_order_fri">17</td>
+                <td id="cal_order_sat">18</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">19</td>
+                <td id="cal_order_mon">20</td>
+                <td id="cal_order_tues">21</td>
+                <td id="cal_order_wed">22</td>
+                <td id="cal_order_thurs">23</td>
+                <td id="cal_order_fri">24</td>
+                <td id="cal_order_sat">25</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">26</td>
+                <td id="cal_order_mon">27</td>
+                <td id="cal_order_tues">28</td>
+                <td id="cal_order_wed">29</td>
+                <td id="cal_order_thurs">30</td>
+                <td id="cal_order_fri">31</td>
+                <td id="cal_order_sat"></td>
+              </tr>
+            </table>
+            <br />
+            <br />
+            <table id="cal-10">
+              <th id="cal_month" colspan="7">2020年10月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon"></td>
+                <td id="cal_order_tues"></td>
+                <td id="cal_order_wed"></td>
+                <td id="cal_order_thurs">1</td>
+                <td id="cal_order_fri">2</td>
+                <td id="cal_order_sat">3</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">4</td>
+                <td id="cal_order_mon">5</td>
+                <td id="cal_order_tues">6</td>
+                <td id="cal_order_wed">7</td>
+                <td id="cal_order_thurs">8</td>
+                <td id="cal_order_fri">9</td>
+                <td id="cal_order_sat">10</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">11</td>
+                <td id="cal_order_mon">12</td>
+                <td id="cal_order_tues">13</td>
+                <td id="cal_order_wed">14</td>
+                <td id="cal_order_thurs">15</td>
+                <td id="cal_order_fri">16</td>
+                <td id="cal_order_sat">17</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">18</td>
+                <td id="cal_order_mon">19</td>
+                <td id="cal_order_tues">20</td>
+                <td id="cal_order_wed">21</td>
+                <td id="cal_order_thurs">22</td>
+                <td id="cal_order_fri">23</td>
+                <td id="cal_order_sat">24</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">25</td>
+                <td id="cal_order_mon">26</td>
+                <td id="cal_order_tues">27</td>
+                <td id="cal_order_wed">28</td>
+                <td id="cal_order_thurs">29</td>
+                <td id="cal_order_fri">30</td>
+                <td id="cal_order_sat">31</td>
+              </tr>
+            </table>
+            <br />
+            <table id="cal-21">
+              <th id="cal_month" colspan="7">2021年1月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon"></td>
+                <td id="cal_order_tues"></td>
+                <td id="cal_order_wed"></td>
+                <td id="cal_order_thurs"></td>
+                <td id="cal_order_fri">1</td>
+                <td id="cal_order_sat">2</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">3</td>
+                <td id="cal_order_mon">4</td>
+                <td id="cal_order_tues">5</td>
+                <td id="cal_order_wed">6</td>
+                <td id="cal_order_thurs">7</td>
+                <td id="cal_order_fri">8</td>
+                <td id="cal_order_sat">9</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">10</td>
+                <td id="cal_order_mon">11</td>
+                <td id="cal_order_tues">12</td>
+                <td id="cal_order_wed">13</td>
+                <td id="cal_order_thurs">14</td>
+                <td id="cal_order_fri">15</td>
+                <td id="cal_order_sat">16</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">17</td>
+                <td id="cal_order_mon">18</td>
+                <td id="cal_order_tues">19</td>
+                <td id="cal_order_wed">20</td>
+                <td id="cal_order_thurs">21</td>
+                <td id="cal_order_fri">22</td>
+                <td id="cal_order_sat">23</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">24</td>
+                <td id="cal_order_mon">25</td>
+                <td id="cal_order_tues">26</td>
+                <td id="cal_order_wed">27</td>
+                <td id="cal_order_thurs">28</td>
+                <td id="cal_order_fri">29</td>
+                <td id="cal_order_sat">30</td>
+              </tr>
+              <tr id="cal_week_6">
+                <td id="cal_order_sun">31</td>
+              </tr>
+            </table>
+            <br />
+          </div>
+          <div id="section-center">
+            <table id="cal-05">
+              <th id="cal_month" colspan="7">2020年5月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon"></td>
+                <td id="cal_order_tues"></td>
+                <td id="cal_order_wed"></td>
+                <td id="cal_order_thurs"></td>
+                <td id="cal_order_fri">1</td>
+                <td id="cal_order_sat">2</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">3</td>
+                <td id="cal_order_mon">4</td>
+                <td id="cal_order_tues">5</td>
+                <td id="cal_order_wed">6</td>
+                <td id="cal_order_thurs">7</td>
+                <td id="cal_order_fri">8</td>
+                <td id="cal_order_sat">9</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">10</td>
+                <td id="cal_order_mon">11</td>
+                <td id="cal_order_tues">12</td>
+                <td id="cal_order_wed">13</td>
+                <td id="cal_order_thurs">14</td>
+                <td id="cal_order_fri">15</td>
+                <td id="cal_order_sat">16</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">17</td>
+                <td id="cal_order_mon">18</td>
+                <td id="cal_order_tues">19</td>
+                <td id="cal_order_wed">20</td>
+                <td id="cal_order_thurs">21</td>
+                <td id="cal_order_fri">22</td>
+                <td id="cal_order_sat">23</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">24</td>
+                <td id="cal_order_mon">25</td>
+                <td id="cal_order_tues">26</td>
+                <td id="cal_order_wed">27</td>
+                <td id="cal_order_thurs">28</td>
+                <td id="cal_order_fri">29</td>
+                <td id="cal_order_sat">30</td>
+              </tr>
+            </table>
+            <br />
+            <table id="cal-08">
+              <th id="cal_month" colspan="7">2020年8月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon"></td>
+                <td id="cal_order_tues"></td>
+                <td id="cal_order_wed"></td>
+                <td id="cal_order_thurs"></td>
+                <td id="cal_order_fri"></td>
+                <td id="cal_order_sat">1</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">2</td>
+                <td id="cal_order_mon">3</td>
+                <td id="cal_order_tues">4</td>
+                <td id="cal_order_wed">5</td>
+                <td id="cal_order_thurs">6</td>
+                <td id="cal_order_fri">7</td>
+                <td id="cal_order_sat">8</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">9</td>
+                <td id="cal_order_mon">10</td>
+                <td id="cal_order_tues">11</td>
+                <td id="cal_order_wed">12</td>
+                <td id="cal_order_thurs">13</td>
+                <td id="cal_order_fri">14</td>
+                <td id="cal_order_sat">15</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">16</td>
+                <td id="cal_order_mon">17</td>
+                <td id="cal_order_tues">18</td>
+                <td id="cal_order_wed">19</td>
+                <td id="cal_order_thurs">20</td>
+                <td id="cal_order_fri">21</td>
+                <td id="cal_order_sat">22</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">23</td>
+                <td id="cal_order_mon">24</td>
+                <td id="cal_order_tues">25</td>
+                <td id="cal_order_wed">26</td>
+                <td id="cal_order_thurs">27</td>
+                <td id="cal_order_fri">28</td>
+                <td id="cal_order_sat">29</td>
+              </tr>
+              <tr id="cal_week_6">
+                <td id="cal_order_sun">30</td>
+                <td id="cal_order_mon">31</td>
+            </table>
+            <br />
+            <table id="cal-11">
+              <th id="cal_month" colspan="7">2020年11月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun">1</td>
+                <td id="cal_order_mon">2</td>
+                <td id="cal_order_tues">3</td>
+                <td id="cal_order_wed">4</td>
+                <td id="cal_order_thurs">5</td>
+                <td id="cal_order_fri">6</td>
+                <td id="cal_order_sat">7</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">8</td>
+                <td id="cal_order_mon">9</td>
+                <td id="cal_order_tues">10</td>
+                <td id="cal_order_wed">11</td>
+                <td id="cal_order_thurs">12</td>
+                <td id="cal_order_fri">13</td>
+                <td id="cal_order_sat">14</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">15</td>
+                <td id="cal_order_mon">16</td>
+                <td id="cal_order_tues">17</td>
+                <td id="cal_order_wed">18</td>
+                <td id="cal_order_thurs">19</td>
+                <td id="cal_order_fri">20</td>
+                <td id="cal_order_sat">21</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">22</td>
+                <td id="cal_order_mon">23</td>
+                <td id="cal_order_tues">24</td>
+                <td id="cal_order_wed">25</td>
+                <td id="cal_order_thurs">26</td>
+                <td id="cal_order_fri">27</td>
+                <td id="cal_order_sat">28</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">29</td>
+                <td id="cal_order_mon">30</td>
+              </tr>
+            </table>
+            <br />
+            <table id="cal-22">
+              <th id="cal_month" colspan="7">2021年2月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon">1</td>
+                <td id="cal_order_tues">2</td>
+                <td id="cal_order_wed">3</td>
+                <td id="cal_order_thurs">4</td>
+                <td id="cal_order_fri">5</td>
+                <td id="cal_order_sat">6</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">7</td>
+                <td id="cal_order_mon">8</td>
+                <td id="cal_order_tues">9</td>
+                <td id="cal_order_wed">10</td>
+                <td id="cal_order_thurs">11</td>
+                <td id="cal_order_fri">12</td>
+                <td id="cal_order_sat">13</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">14</td>
+                <td id="cal_order_mon">15</td>
+                <td id="cal_order_tues">16</td>
+                <td id="cal_order_wed">17</td>
+                <td id="cal_order_thurs">18</td>
+                <td id="cal_order_fri">19</td>
+                <td id="cal_order_sat">20</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">21</td>
+                <td id="cal_order_mon">22</td>
+                <td id="cal_order_tues">23</td>
+                <td id="cal_order_wed">24</td>
+                <td id="cal_order_thurs">25</td>
+                <td id="cal_order_fri">26</td>
+                <td id="cal_order_sat">27</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">28</td>
+            </table>
+            <br />
+          </div>
+          <div id="section-right">
+            <table id="cal-06">
+              <th id="cal_month" colspan="7">2020年6月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon">1</td>
+                <td id="cal_order_tues">2</td>
+                <td id="cal_order_wed">3</td>
+                <td id="cal_order_thurs">4</td>
+                <td id="cal_order_fri">5</td>
+                <td id="cal_order_sat">6</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">7</td>
+                <td id="cal_order_mon">8</td>
+                <td id="cal_order_tues">9</td>
+                <td id="cal_order_wed">10</td>
+                <td id="cal_order_thurs">11</td>
+                <td id="cal_order_fri">12</td>
+                <td id="cal_order_sat">13</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">14</td>
+                <td id="cal_order_mon">15</td>
+                <td id="cal_order_tues">16</td>
+                <td id="cal_order_wed">17</td>
+                <td id="cal_order_thurs">18</td>
+                <td id="cal_order_fri">19</td>
+                <td id="cal_order_sat">20</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">21</td>
+                <td id="cal_order_mon">22</td>
+                <td id="cal_order_tues">23</td>
+                <td id="cal_order_wed">24</td>
+                <td id="cal_order_thurs">25</td>
+                <td id="cal_order_fri">26</td>
+                <td id="cal_order_sat">27</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">28</td>
+                <td id="cal_order_mon">29</td>
+                <td id="cal_order_tues">30</td>
+                <td id="cal_order_wed"></td>
+              </tr>
+            </table>
+            <br />
+            <table id="cal-09">
+              <th id="cal_month" colspan="7">2020年9月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon"></td>
+                <td id="cal_order_tues">1</td>
+                <td id="cal_order_wed">2</td>
+                <td id="cal_order_thurs">3</td>
+                <td id="cal_order_fri">4</td>
+                <td id="cal_order_sat">5</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">6</td>
+                <td id="cal_order_mon">7</td>
+                <td id="cal_order_tues">8</td>
+                <td id="cal_order_wed">9</td>
+                <td id="cal_order_thurs">10</td>
+                <td id="cal_order_fri">11</td>
+                <td id="cal_order_sat">12</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">13</td>
+                <td id="cal_order_mon">14</td>
+                <td id="cal_order_tues">15</td>
+                <td id="cal_order_wed">16</td>
+                <td id="cal_order_thurs">17</td>
+                <td id="cal_order_fri">18</td>
+                <td id="cal_order_sat">19</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">20</td>
+                <td id="cal_order_mon">21</td>
+                <td id="cal_order_tues">22</td>
+                <td id="cal_order_wed">23</td>
+                <td id="cal_order_thurs">24</td>
+                <td id="cal_order_fri">25</td>
+                <td id="cal_order_sat">26</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">27</td>
+                <td id="cal_order_mon">28</td>
+                <td id="cal_order_tues">29</td>
+                <td id="cal_order_wed">30</td>
+            </table>
+            <br />
+            <br />
+            <table id="cal-12">
+              <th id="cal_month" colspan="7">2020年12月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon"></td>
+                <td id="cal_order_tues">1</td>
+                <td id="cal_order_wed">2</td>
+                <td id="cal_order_thurs">3</td>
+                <td id="cal_order_fri">4</td>
+                <td id="cal_order_sat">5</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">6</td>
+                <td id="cal_order_mon">7</td>
+                <td id="cal_order_tues">8</td>
+                <td id="cal_order_wed">9</td>
+                <td id="cal_order_thurs">10</td>
+                <td id="cal_order_fri">11</td>
+                <td id="cal_order_sat">12</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">13</td>
+                <td id="cal_order_mon">14</td>
+                <td id="cal_order_tues">15</td>
+                <td id="cal_order_wed">16</td>
+                <td id="cal_order_thurs">17</td>
+                <td id="cal_order_fri">18</td>
+                <td id="cal_order_sat">19</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">20</td>
+                <td id="cal_order_mon">21</td>
+                <td id="cal_order_tues">22</td>
+                <td id="cal_order_wed">23</td>
+                <td id="cal_order_thurs">24</td>
+                <td id="cal_order_fri">25</td>
+                <td id="cal_order_sat">26</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">27</td>
+                <td id="cal_order_mon">28</td>
+                <td id="cal_order_tues">29</td>
+                <td id="cal_order_wed">30</td>
+                <td id="cal_order_thurs">31</td>
+            </table>
+            <br />
+            <table id="cal-23">
+              <th id="cal_month" colspan="7">2021年3月</th>
+              <tr id="cal_week_day">
+                <td id="cal_order_sun_heading">日</td>
+                <td id="cal_order_mon_heading">月</td>
+                <td id="cal_order_tues_heading">火</td>
+                <td id="cal_order_wed_heading">水</td>
+                <td id="cal_order_thurs_heading">木</td>
+                <td id="cal_order_fri_heading">金</td>
+                <td id="cal_order_sat_heading">土</td>
+              </tr>
+              <tr id="cal_week_1">
+                <td id="cal_order_sun"></td>
+                <td id="cal_order_mon">1</td>
+                <td id="cal_order_tues">2</td>
+                <td id="cal_order_wed">3</td>
+                <td id="cal_order_thurs">4</td>
+                <td id="cal_order_fri">5</td>
+                <td id="cal_order_sat">6</td>
+              </tr>
+              <tr id="cal_week_2">
+                <td id="cal_order_sun">7</td>
+                <td id="cal_order_mon">8</td>
+                <td id="cal_order_tues">9</td>
+                <td id="cal_order_wed">10</td>
+                <td id="cal_order_thurs">11</td>
+                <td id="cal_order_fri">12</td>
+                <td id="cal_order_sat">13</td>
+              </tr>
+              <tr id="cal_week_3">
+                <td id="cal_order_sun">14</td>
+                <td id="cal_order_mon">15</td>
+                <td id="cal_order_tues">16</td>
+                <td id="cal_order_wed">17</td>
+                <td id="cal_order_thurs">18</td>
+                <td id="cal_order_fri">19</td>
+                <td id="cal_order_sat">20</td>
+              </tr>
+              <tr id="cal_week_4">
+                <td id="cal_order_sun">21</td>
+                <td id="cal_order_mon">22</td>
+                <td id="cal_order_tues">23</td>
+                <td id="cal_order_wed">24</td>
+                <td id="cal_order_thurs">25</td>
+                <td id="cal_order_fri">26</td>
+                <td id="cal_order_sat">27</td>
+              </tr>
+              <tr id="cal_week_5">
+                <td id="cal_order_sun">28</td>
+                <td id="cal_order_mon">29</td>
+                <td id="cal_order_tues">30</td>
+                <td id="cal_order_wed">31</td>
+            </table>
+            <br />
+          </div>
+        </div>
+        <h2 class="hidden">ARTICLES</h2>
+      </main>
+      <div class="sidemenu">
+        <h2 class="hidden">検索</h2>
+        <form class="search-box">
+          <input class="search-input" type="text" name="search" placeholder="SEARCH">
+          <input class="search-button" type="submit" value="検索">
+          <p class="text">サイト内の文章を検索できます。</p>
+        </form>
+        <br />
+        <div id="now">
+          <h2>Time & Date</h2>
+          <br/>
+          <input type="button" onclick="get_date();" value="現在の時間（日付）">
+        </div>
+      </div>
     </div>
-    <div class="calendar_2021">
-      <div id="section-left">
-        <table id="cal-04">
-          <th id="cal_month" colspan="7">2020年4月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed">1</td>
-            <td id="cal_order_thurs">2</td>
-            <td id="cal_order_fri">3</td>
-            <td id="cal_order_sat">4</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">5</td>
-            <td id="cal_order_mon">6</td>
-            <td id="cal_order_tues">7</td>
-            <td id="cal_order_wed">8</td>
-            <td id="cal_order_thurs">9</td>
-            <td id="cal_order_fri">10</td>
-            <td id="cal_order_sat">11</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">12</td>
-            <td id="cal_order_mon">13</td>
-            <td id="cal_order_tues">14</td>
-            <td id="cal_order_wed">15</td>
-            <td id="cal_order_thurs">16</td>
-            <td id="cal_order_fri">17</td>
-            <td id="cal_order_sat">18</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">19</td>
-            <td id="cal_order_mon">20</td>
-            <td id="cal_order_tues">21</td>
-            <td id="cal_order_wed">22</td>
-            <td id="cal_order_thurs">23</td>
-            <td id="cal_order_fri">24</td>
-            <td id="cal_order_sat">25</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">26</td>
-            <td id="cal_order_mon">27</td>
-            <td id="cal_order_tues">28</td>
-            <td id="cal_order_wed">29</td>
-            <td id="cal_order_thurs">30</td>
-          </tr>
-        </table>
-        <br />
-        <table id="cal-07">
-          <th id="cal_month" colspan="7">2020年7月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed">1</td>
-            <td id="cal_order_thurs">2</td>
-            <td id="cal_order_fri">3</td>
-            <td id="cal_order_sat">4</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">5</td>
-            <td id="cal_order_mon">6</td>
-            <td id="cal_order_tues">7</td>
-            <td id="cal_order_wed">8</td>
-            <td id="cal_order_thurs">9</td>
-            <td id="cal_order_fri">10</td>
-            <td id="cal_order_sat">11</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">12</td>
-            <td id="cal_order_mon">13</td>
-            <td id="cal_order_tues">14</td>
-            <td id="cal_order_wed">15</td>
-            <td id="cal_order_thurs">16</td>
-            <td id="cal_order_fri">17</td>
-            <td id="cal_order_sat">18</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">19</td>
-            <td id="cal_order_mon">20</td>
-            <td id="cal_order_tues">21</td>
-            <td id="cal_order_wed">22</td>
-            <td id="cal_order_thurs">23</td>
-            <td id="cal_order_fri">24</td>
-            <td id="cal_order_sat">25</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">26</td>
-            <td id="cal_order_mon">27</td>
-            <td id="cal_order_tues">28</td>
-            <td id="cal_order_wed">29</td>
-            <td id="cal_order_thurs">30</td>
-            <td id="cal_order_fri">31</td>
-            <td id="cal_order_sat"></td>
-          </tr>
-        </table>
-        <br />
-        <br />
-        <table id="cal-10">
-          <th id="cal_month" colspan="7">2020年10月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs">1</td>
-            <td id="cal_order_fri">2</td>
-            <td id="cal_order_sat">3</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">4</td>
-            <td id="cal_order_mon">5</td>
-            <td id="cal_order_tues">6</td>
-            <td id="cal_order_wed">7</td>
-            <td id="cal_order_thurs">8</td>
-            <td id="cal_order_fri">9</td>
-            <td id="cal_order_sat">10</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">11</td>
-            <td id="cal_order_mon">12</td>
-            <td id="cal_order_tues">13</td>
-            <td id="cal_order_wed">14</td>
-            <td id="cal_order_thurs">15</td>
-            <td id="cal_order_fri">16</td>
-            <td id="cal_order_sat">17</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">18</td>
-            <td id="cal_order_mon">19</td>
-            <td id="cal_order_tues">20</td>
-            <td id="cal_order_wed">21</td>
-            <td id="cal_order_thurs">22</td>
-            <td id="cal_order_fri">23</td>
-            <td id="cal_order_sat">24</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">25</td>
-            <td id="cal_order_mon">26</td>
-            <td id="cal_order_tues">27</td>
-            <td id="cal_order_wed">28</td>
-            <td id="cal_order_thurs">29</td>
-            <td id="cal_order_fri">30</td>
-            <td id="cal_order_sat">31</td>
-          </tr>
-        </table>
-        <br />
-        <table id="cal-21">
-          <th id="cal_month" colspan="7">2021年1月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs"></td>
-            <td id="cal_order_fri">1</td>
-            <td id="cal_order_sat">2</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">3</td>
-            <td id="cal_order_mon">4</td>
-            <td id="cal_order_tues">5</td>
-            <td id="cal_order_wed">6</td>
-            <td id="cal_order_thurs">7</td>
-            <td id="cal_order_fri">8</td>
-            <td id="cal_order_sat">9</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">10</td>
-            <td id="cal_order_mon">11</td>
-            <td id="cal_order_tues">12</td>
-            <td id="cal_order_wed">13</td>
-            <td id="cal_order_thurs">14</td>
-            <td id="cal_order_fri">15</td>
-            <td id="cal_order_sat">16</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">17</td>
-            <td id="cal_order_mon">18</td>
-            <td id="cal_order_tues">19</td>
-            <td id="cal_order_wed">20</td>
-            <td id="cal_order_thurs">21</td>
-            <td id="cal_order_fri">22</td>
-            <td id="cal_order_sat">23</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">24</td>
-            <td id="cal_order_mon">25</td>
-            <td id="cal_order_tues">26</td>
-            <td id="cal_order_wed">27</td>
-            <td id="cal_order_thurs">28</td>
-            <td id="cal_order_fri">29</td>
-            <td id="cal_order_sat">30</td>
-          </tr>
-          <tr id="cal_week_6">
-            <td id="cal_order_sun">31</td>
-          </tr>
-        </table>
-        <br />
-      </div>
-      <div id="section-center">
-        <table id="cal-05">
-          <th id="cal_month" colspan="7">2020年5月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs"></td>
-            <td id="cal_order_fri">1</td>
-            <td id="cal_order_sat">2</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">3</td>
-            <td id="cal_order_mon">4</td>
-            <td id="cal_order_tues">5</td>
-            <td id="cal_order_wed">6</td>
-            <td id="cal_order_thurs">7</td>
-            <td id="cal_order_fri">8</td>
-            <td id="cal_order_sat">9</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">10</td>
-            <td id="cal_order_mon">11</td>
-            <td id="cal_order_tues">12</td>
-            <td id="cal_order_wed">13</td>
-            <td id="cal_order_thurs">14</td>
-            <td id="cal_order_fri">15</td>
-            <td id="cal_order_sat">16</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">17</td>
-            <td id="cal_order_mon">18</td>
-            <td id="cal_order_tues">19</td>
-            <td id="cal_order_wed">20</td>
-            <td id="cal_order_thurs">21</td>
-            <td id="cal_order_fri">22</td>
-            <td id="cal_order_sat">23</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">24</td>
-            <td id="cal_order_mon">25</td>
-            <td id="cal_order_tues">26</td>
-            <td id="cal_order_wed">27</td>
-            <td id="cal_order_thurs">28</td>
-            <td id="cal_order_fri">29</td>
-            <td id="cal_order_sat">30</td>
-          </tr>
-        </table>
-        <br />
-        <table id="cal-08">
-          <th id="cal_month" colspan="7">2020年8月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues"></td>
-            <td id="cal_order_wed"></td>
-            <td id="cal_order_thurs"></td>
-            <td id="cal_order_fri"></td>
-            <td id="cal_order_sat">1</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">2</td>
-            <td id="cal_order_mon">3</td>
-            <td id="cal_order_tues">4</td>
-            <td id="cal_order_wed">5</td>
-            <td id="cal_order_thurs">6</td>
-            <td id="cal_order_fri">7</td>
-            <td id="cal_order_sat">8</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">9</td>
-            <td id="cal_order_mon">10</td>
-            <td id="cal_order_tues">11</td>
-            <td id="cal_order_wed">12</td>
-            <td id="cal_order_thurs">13</td>
-            <td id="cal_order_fri">14</td>
-            <td id="cal_order_sat">15</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">16</td>
-            <td id="cal_order_mon">17</td>
-            <td id="cal_order_tues">18</td>
-            <td id="cal_order_wed">19</td>
-            <td id="cal_order_thurs">20</td>
-            <td id="cal_order_fri">21</td>
-            <td id="cal_order_sat">22</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">23</td>
-            <td id="cal_order_mon">24</td>
-            <td id="cal_order_tues">25</td>
-            <td id="cal_order_wed">26</td>
-            <td id="cal_order_thurs">27</td>
-            <td id="cal_order_fri">28</td>
-            <td id="cal_order_sat">29</td>
-          </tr>
-          <tr id="cal_week_6">
-            <td id="cal_order_sun">30</td>
-            <td id="cal_order_mon">31</td>
-        </table>
-        <br />
-        <table id="cal-11">
-          <th id="cal_month" colspan="7">2020年11月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun">1</td>
-            <td id="cal_order_mon">2</td>
-            <td id="cal_order_tues">3</td>
-            <td id="cal_order_wed">4</td>
-            <td id="cal_order_thurs">5</td>
-            <td id="cal_order_fri">6</td>
-            <td id="cal_order_sat">7</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">8</td>
-            <td id="cal_order_mon">9</td>
-            <td id="cal_order_tues">10</td>
-            <td id="cal_order_wed">11</td>
-            <td id="cal_order_thurs">12</td>
-            <td id="cal_order_fri">13</td>
-            <td id="cal_order_sat">14</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">15</td>
-            <td id="cal_order_mon">16</td>
-            <td id="cal_order_tues">17</td>
-            <td id="cal_order_wed">18</td>
-            <td id="cal_order_thurs">19</td>
-            <td id="cal_order_fri">20</td>
-            <td id="cal_order_sat">21</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">22</td>
-            <td id="cal_order_mon">23</td>
-            <td id="cal_order_tues">24</td>
-            <td id="cal_order_wed">25</td>
-            <td id="cal_order_thurs">26</td>
-            <td id="cal_order_fri">27</td>
-            <td id="cal_order_sat">28</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">29</td>
-            <td id="cal_order_mon">30</td>
-          </tr>
-        </table>
-        <br />
-        <table id="cal-22">
-          <th id="cal_month" colspan="7">2021年2月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon">1</td>
-            <td id="cal_order_tues">2</td>
-            <td id="cal_order_wed">3</td>
-            <td id="cal_order_thurs">4</td>
-            <td id="cal_order_fri">5</td>
-            <td id="cal_order_sat">6</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">7</td>
-            <td id="cal_order_mon">8</td>
-            <td id="cal_order_tues">9</td>
-            <td id="cal_order_wed">10</td>
-            <td id="cal_order_thurs">11</td>
-            <td id="cal_order_fri">12</td>
-            <td id="cal_order_sat">13</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">14</td>
-            <td id="cal_order_mon">15</td>
-            <td id="cal_order_tues">16</td>
-            <td id="cal_order_wed">17</td>
-            <td id="cal_order_thurs">18</td>
-            <td id="cal_order_fri">19</td>
-            <td id="cal_order_sat">20</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">21</td>
-            <td id="cal_order_mon">22</td>
-            <td id="cal_order_tues">23</td>
-            <td id="cal_order_wed">24</td>
-            <td id="cal_order_thurs">25</td>
-            <td id="cal_order_fri">26</td>
-            <td id="cal_order_sat">27</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">28</td>
-        </table>
-        <br />
-      </div>
-      <div id="section-right">
-        <table id="cal-06">
-          <th id="cal_month" colspan="7">2020年6月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon">1</td>
-            <td id="cal_order_tues">2</td>
-            <td id="cal_order_wed">3</td>
-            <td id="cal_order_thurs">4</td>
-            <td id="cal_order_fri">5</td>
-            <td id="cal_order_sat">6</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">7</td>
-            <td id="cal_order_mon">8</td>
-            <td id="cal_order_tues">9</td>
-            <td id="cal_order_wed">10</td>
-            <td id="cal_order_thurs">11</td>
-            <td id="cal_order_fri">12</td>
-            <td id="cal_order_sat">13</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">14</td>
-            <td id="cal_order_mon">15</td>
-            <td id="cal_order_tues">16</td>
-            <td id="cal_order_wed">17</td>
-            <td id="cal_order_thurs">18</td>
-            <td id="cal_order_fri">19</td>
-            <td id="cal_order_sat">20</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">21</td>
-            <td id="cal_order_mon">22</td>
-            <td id="cal_order_tues">23</td>
-            <td id="cal_order_wed">24</td>
-            <td id="cal_order_thurs">25</td>
-            <td id="cal_order_fri">26</td>
-            <td id="cal_order_sat">27</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">28</td>
-            <td id="cal_order_mon">29</td>
-            <td id="cal_order_tues">30</td>
-            <td id="cal_order_wed"></td>
-          </tr>
-        </table>
-        <br />
-        <table id="cal-09">
-          <th id="cal_month" colspan="7">2020年9月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues">1</td>
-            <td id="cal_order_wed">2</td>
-            <td id="cal_order_thurs">3</td>
-            <td id="cal_order_fri">4</td>
-            <td id="cal_order_sat">5</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">6</td>
-            <td id="cal_order_mon">7</td>
-            <td id="cal_order_tues">8</td>
-            <td id="cal_order_wed">9</td>
-            <td id="cal_order_thurs">10</td>
-            <td id="cal_order_fri">11</td>
-            <td id="cal_order_sat">12</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">13</td>
-            <td id="cal_order_mon">14</td>
-            <td id="cal_order_tues">15</td>
-            <td id="cal_order_wed">16</td>
-            <td id="cal_order_thurs">17</td>
-            <td id="cal_order_fri">18</td>
-            <td id="cal_order_sat">19</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">20</td>
-            <td id="cal_order_mon">21</td>
-            <td id="cal_order_tues">22</td>
-            <td id="cal_order_wed">23</td>
-            <td id="cal_order_thurs">24</td>
-            <td id="cal_order_fri">25</td>
-            <td id="cal_order_sat">26</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">27</td>
-            <td id="cal_order_mon">28</td>
-            <td id="cal_order_tues">29</td>
-            <td id="cal_order_wed">30</td>
-        </table>
-        <br />
-        <br />
-        <table id="cal-12">
-          <th id="cal_month" colspan="7">2020年12月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon"></td>
-            <td id="cal_order_tues">1</td>
-            <td id="cal_order_wed">2</td>
-            <td id="cal_order_thurs">3</td>
-            <td id="cal_order_fri">4</td>
-            <td id="cal_order_sat">5</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">6</td>
-            <td id="cal_order_mon">7</td>
-            <td id="cal_order_tues">8</td>
-            <td id="cal_order_wed">9</td>
-            <td id="cal_order_thurs">10</td>
-            <td id="cal_order_fri">11</td>
-            <td id="cal_order_sat">12</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">13</td>
-            <td id="cal_order_mon">14</td>
-            <td id="cal_order_tues">15</td>
-            <td id="cal_order_wed">16</td>
-            <td id="cal_order_thurs">17</td>
-            <td id="cal_order_fri">18</td>
-            <td id="cal_order_sat">19</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">20</td>
-            <td id="cal_order_mon">21</td>
-            <td id="cal_order_tues">22</td>
-            <td id="cal_order_wed">23</td>
-            <td id="cal_order_thurs">24</td>
-            <td id="cal_order_fri">25</td>
-            <td id="cal_order_sat">26</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">27</td>
-            <td id="cal_order_mon">28</td>
-            <td id="cal_order_tues">29</td>
-            <td id="cal_order_wed">30</td>
-            <td id="cal_order_thurs">31</td>
-        </table>
-        <br />
-        <table id="cal-23">
-          <th id="cal_month" colspan="7">2021年3月</th>
-          <tr id="cal_week_day">
-            <td id="cal_order_sun_heading">日</td>
-            <td id="cal_order_mon_heading">月</td>
-            <td id="cal_order_tues_heading">火</td>
-            <td id="cal_order_wed_heading">水</td>
-            <td id="cal_order_thurs_heading">木</td>
-            <td id="cal_order_fri_heading">金</td>
-            <td id="cal_order_sat_heading">土</td>
-          </tr>
-          <tr id="cal_week_1">
-            <td id="cal_order_sun"></td>
-            <td id="cal_order_mon">1</td>
-            <td id="cal_order_tues">2</td>
-            <td id="cal_order_wed">3</td>
-            <td id="cal_order_thurs">4</td>
-            <td id="cal_order_fri">5</td>
-            <td id="cal_order_sat">6</td>
-          </tr>
-          <tr id="cal_week_2">
-            <td id="cal_order_sun">7</td>
-            <td id="cal_order_mon">8</td>
-            <td id="cal_order_tues">9</td>
-            <td id="cal_order_wed">10</td>
-            <td id="cal_order_thurs">11</td>
-            <td id="cal_order_fri">12</td>
-            <td id="cal_order_sat">13</td>
-          </tr>
-          <tr id="cal_week_3">
-            <td id="cal_order_sun">14</td>
-            <td id="cal_order_mon">15</td>
-            <td id="cal_order_tues">16</td>
-            <td id="cal_order_wed">17</td>
-            <td id="cal_order_thurs">18</td>
-            <td id="cal_order_fri">19</td>
-            <td id="cal_order_sat">20</td>
-          </tr>
-          <tr id="cal_week_4">
-            <td id="cal_order_sun">21</td>
-            <td id="cal_order_mon">22</td>
-            <td id="cal_order_tues">23</td>
-            <td id="cal_order_wed">24</td>
-            <td id="cal_order_thurs">25</td>
-            <td id="cal_order_fri">26</td>
-            <td id="cal_order_sat">27</td>
-          </tr>
-          <tr id="cal_week_5">
-            <td id="cal_order_sun">28</td>
-            <td id="cal_order_mon">29</td>
-            <td id="cal_order_tues">30</td>
-            <td id="cal_order_wed">31</td>
-        </table>
-        <br />
-      </div>
-    </div>
-
+    <footer class="footer">
+      <ul class="horizontal-list">
+        <li class="horizontal-item"><a href="http://#">学校のホームページ</a></li>
+        <li class="horizontal-item"><a href="http://#">地図</a></li>
+        <li class="horizontal-item"><a href="http://#">SNS</a></li>
+        <li class="horizontal-item"><a href="http://#">問い合わせ</a></li>
+      </ul>
+      <br/>
+      <span class="copyright">2019~20 中央情報専門学校・イベント実行委員</span>
+    </footer>
     <script>
       function get_date() {
         let today = new Date();
