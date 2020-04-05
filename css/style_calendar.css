@@ -12,10 +12,21 @@
 
 #cal_month {
   color: green;
+  font-size: small;
 }
 
 #cal_order_sun_heading, #cal_order_mon_heading, #cal_order_tues_heading, #cal_order_wed_heading, #cal_order_thurs_heading, #cal_order_fri_heading, #cal_order_sat_heading{
   color: blue;
+}
+
+#cal_order_sun,
+#cal_order_mon,
+#cal_order_tues,
+#cal_order_wed,
+#cal_order_thurs,
+#cal_order_fri,
+#cal_order_sat{
+  font-size: small;
 }
 
 #section-left {
