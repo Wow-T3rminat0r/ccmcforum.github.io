@@ -1,7 +1,4 @@
 @charset "UTF-8";
-html {
-  font-size: small;
-}
 
 #now {
   text-align: center;
@@ -60,25 +57,33 @@ th, tr, td {
 #event_title {
   padding-top: 15px;
   background-color: #eee;
-}
-
-#event_title {
   font-size: large;
   color: orangered;
   text-align: center;
-}
-
-#month-4, #month-5, #month-6, #month-7, #month-8, #month-9, #month-10, #month-11, #month-12, #month-21, #month-22, #month-23 {
-  font-size: medium;
-  color: grey;
-  text-align: justify;
 }
 
 #event_title ul {
   list-style:none;
 }
 
-#event_title ul li {
+#event_title ul #month-4,
+#month-5,
+#month-6,
+#month-7,
+#month-8,
+#month-9,
+#month-10,
+#month-11,
+#month-12,
+#month-21,
+#month-22,
+#month-23 {
+  font-size: small;
+  color: grey;
+  text-align: justify;
+}
+
+#event_title ul li ul{
   padding-left: 0px;
 }
 
@@ -88,10 +93,10 @@ th, tr, td {
 }
 
 #event_title ul li:hover ul li {
-  display: flex;
+  display: block;
 }
 
 hr {
-  width: 0px;
-  color: #eee;
+  color: #000;
+  width: 100%;
 }
