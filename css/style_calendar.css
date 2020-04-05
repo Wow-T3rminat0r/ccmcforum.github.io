@@ -1,10 +1,10 @@
+html {
+  font-size: small;
+}
+
 #now {
-  background-color: red;
-  color:white;
   text-align: center;
-  height: 75px;
-  margin: auto;
-  padding:5px;
+  height: 26px;
 }
 
 .calendar_2021 {
@@ -44,7 +44,7 @@ table {
 }
 
 th, tr, td {
-  border: 0.5px solid grey;
+  border: 0.25px solid grey;
 }
 
 #cal-04, #cal-05, #cal-,
@@ -55,3 +55,42 @@ th, tr, td {
 #cal_order_sun {
     color: red;
   }
+
+#event_title {
+  padding-top: 15px;
+  background-color: #eee;
+}
+
+#event_title {
+  font-size: large;
+  color: orangered;
+  text-align: center;
+}
+
+#month-4, #month-5, #month-6, #month-7, #month-8, #month-9, #month-10, #month-11, #month-12, #month-21, #month-22, #month-23 {
+  font-size: medium;
+  color: grey;
+  text-align: justify;
+}
+
+#event_title ul {
+  list-style:none;
+}
+
+#event_title ul li {
+  padding-left: 0px;
+}
+
+#event_title ul li ul li{
+  display: none;
+  color: red;
+}
+
+#event_title ul li:hover ul li {
+  display: flex;
+}
+
+hr {
+  width: 0px;
+  color: #eee;
+}

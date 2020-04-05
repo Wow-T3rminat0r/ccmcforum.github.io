@@ -6,6 +6,7 @@
 html {
   font-size: 62.5%;
 }
+
 body {
   color: #333;
   font-size: 1.2rem;
@@ -51,10 +52,12 @@ a:link, a:visited, a:hover, a:active {
   width: 225px;
   height: 56px;
   margin: 0 auto;
-  text-indent: 25%;
   white-space: nowrap;
   overflow: visible;
+  font-size: x-large;
+  text-align: center;
 }
+
 .logo a {
   display: block;
   color:orangered;
