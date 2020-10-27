@@ -208,7 +208,7 @@ a:link, a:visited, a:hover, a:active {
   line-height: 16px;
 }
 
-.offer-list .category.news {
+.offer-list .category.entry {
   background-color: #2c3c53;
 }
 
@@ -289,18 +289,19 @@ a:link, a:visited, a:hover, a:active {
 .sidemenu {
   float: right;
   width: 275px;
+  color: #000;
 }
 
-.events {
+.main-events {
   margin: 10px 10px 30px;
 }
 
-.events,
-.events ul {
+.main-events,
+.main-events ul {
   list-style-type: none;
 }
 
-.events > li .title {
+.main-events > li .title {
   margin: 15px 0;
   padding-left: 8px;
   border-left: 5px solid orangered;
@@ -308,51 +309,21 @@ a:link, a:visited, a:hover, a:active {
   line-height: 1.2;
 }
 
-.events > li + li {
+.main-events > li + li {
   margin-top: 25px;
 }
-.events > li ul {
+.main-events > li ul {
   margin: 15px;
 }
 
-.events > li ul > li {
+.main-events > li ul > li {
   margin-bottom: 15px;
   padding-left: 10px;
   background: url('../images/arrow.gif') no-repeat left center;
 }
 
-.events a:hover {
+.main-events a:hover {
   text-decoration: underline;
-}
-
-.search-box {
-  padding: 15px;
-  background-color: #ccc;
-  font-size: 0;
-}
-
-.search-box > * {
-  font-size: 1.2rem;
-}
-
-.search-box .search-input {
-  width: 205px;
-  height: 26px;
-  padding: 0 10px;
-  border: none;
-}
-
-.search-box .search-button {
-  width: 40px;
-  height: 26px;
-  border: none;
-  background-color: orangered;
-  color: #fff;
-  cursor: pointer;
-}
-
-.search-box .text {
-  margin-top: 12px;
 }
 
 
