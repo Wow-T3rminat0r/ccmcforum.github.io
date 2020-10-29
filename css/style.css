@@ -1,343 +1,364 @@
 @charset "UTF-8";
-
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  color: #333;
-  font-size: 1.2rem;
-  font-family: "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+    color: #333;
+    font-size: 1.3rem;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-a:link, a:visited, a:hover, a:active {
-  color: orangered;
-  text-decoration: none;
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: orangered;
+    text-decoration: none;
 }
+
 
 /* --------------------------------
  * parts
  * -------------------------------- */
+
 .clearfix::after {
-  content: '';
-  display: block;
-  clear: both;
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .heading {
-  padding: 10px 12px;
-  background: url('../images/bg-slash.gif');
-  letter-spacing: 1px;
-  font-size: 1.6rem;
+    padding: 10px 12px;
+    background: url('../images/bg-slash.gif');
+    letter-spacing: 1px;
+    font-size: 1.6rem;
 }
 
 .hidden {
-  display: none;
+    display: none;
 }
+
 
 /* --------------------------------
  * header
  * -------------------------------- */
+
 .header {
-  width: 100%;
-  padding: 28px 0 10px;
-  box-shadow: 0 0 10px 1px #e3e3e3;
+    width: 100%;
+    padding: 28px 0 10px;
+    box-shadow: 0 0 10px 1px #e3e3e3;
 }
 
 .logo {
-  width: 225px;
-  height: 56px;
-  margin: 0 auto;
-  white-space: nowrap;
-  overflow: visible;
-  font-size: x-large;
-  text-align: center;
+    width: 970px;
+    height: 56px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: visible;
+    font-size: x-large;
 }
 
 .logo a {
-  display: block;
-  color:orangered;
-  text-align: center;
-  font-size: larger;
+    display: block;
+    color: orangered;
+    text-align: center;
+    font-size: larger;
 }
 
 .global-nav {
-  margin-top: 15px;
-  text-align: center;
+    margin-top: 30px;
+    width: 970px;
+    text-align: end;
 }
 
 .global-nav .nav-item {
-  display: inline-block;
-  margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 .global-nav .nav-item a {
-  display: inline-block;
-  width: 100px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 8px;
-  color: #666;
-  font-size: 1.3rem;
-  letter-spacing: 1px;
-  transition: 0.15s;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: #222;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    transition: 0.15s;
 }
 
 .global-nav .nav-item.active a,
 .global-nav .nav-item a:hover {
-  background-color: orangered;
-  color: #fff;
+    background-color: orangered;
+    color: #fff;
 }
+
 
 /* --------------------------------
  * wrapper
  * -------------------------------- */
+
 .wrapper {
-  width: 970px;
-  margin: 30px auto 40px;
+    width: 970px;
+    margin: 30px auto 40px;
 }
+
 
 /* --------------------------------
  * main
  * -------------------------------- */
+
 .main {
-  display: block;
-  float: left;
-  width: 660px;
+    display: block;
+    float: left;
+    width: 660px;
 }
 
 .hot-topic {
-  display: block;
-  height: 300px;
-  margin-bottom: 30px;
-  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.15);
-  transition: opacity 0.15s;
+    display: block;
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.15s;
 }
 
 .hot-topic:hover {
-  opacity: 0.85;
+    opacity: 0.85;
 }
 
 .hot-topic .image {
-  float: left;
-  width: 60%;
-  height: 100%;
+    float: left;
+    width: 60%;
+    height: 100%;
 }
 
 .hot-topic .content {
-  position: relative;
-  float: left;
-  width: 40%;
-  height: 100%;
-  padding: 105px 25px 0;
-  background-color: #2d3d54;
-  line-height: 1.6;
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding: 105px 25px 0;
+    background-color: #2d3d54;
+    line-height: 1.6;
 }
 
 .hot-topic .title {
-  margin-bottom: 15px;
-  color: #fff;
-  font-weight: normal;
-  font-size: 2.0rem;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 2.0rem;
 }
 
 .hot-topic .desc {
-  color: #ddc;
+    color: #ddc;
 }
 
 .hot-topic .date {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 140px;
-  padding: 4px;
-  background-color: #fff;
-  color: #2d3d54;
-  text-align: center;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  line-height: 1;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 140px;
+    padding: 4px;
+    background-color: #fff;
+    color: #2d3d54;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1;
 }
 
 .offer-list {
-  max-height: 220px;
-  overflow-y: auto;
-  margin-bottom: 30px;
-  list-style-type: none;
+    max-height: 220px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+    list-style-type: none;
 }
 
 .offer-list .offer-item a {
-  display: block;
-  padding: 10px 15px;
-  color: #333;
-  font-size: 0;
-  transition: background-color 0.1s;
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 0;
+    transition: background-color 0.1s;
 }
 
 .offer-list .offer-item:nth-of-type(even) a {
-  background: url('../images/bg-slash.gif');
+    background: url('../images/bg-slash.gif');
 }
 
 .offer-list .offer-item a:hover {
-  background-color: #fafaf8;
+    background-color: #fafaf8;
 }
 
 .offer-list .date {
-  display: inline-block;
-  width: 19%;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 1.0rem;
+    display: inline-block;
+    width: 19%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.0rem;
 }
 
 .offer-list .category {
-  display: inline-block;
-  width: 8%;
-  border-radius: 5px;
-  background-color: orangered;
-  color: #fff;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.0rem;
-  line-height: 16px;
+    display: inline-block;
+    width: 8%;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.0rem;
+    line-height: 16px;
 }
 
 .offer-list .category.entry {
-  background-color: #2c3c53;
+    background-color: #2c3c53;
 }
 
 .offer-list .title {
-  display: inline-block;
-  width: 73%;
-  padding-left: 15px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 1.2rem;
+    display: inline-block;
+    width: 73%;
+    padding-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.2rem;
+}
+
+.application {
+    font-size: 2rem;
 }
 
 .article-box {
-  position: relative;
-  display: block;
-  width: 315px;
-  height: 360px;
-  margin-bottom: 30px;
-  padding: 210px 15px 0;
-  box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
-  transition: opacity 0.15s;
+    position: relative;
+    display: block;
+    width: 315px;
+    height: 360px;
+    margin-bottom: 30px;
+    padding: 210px 15px 0;
+    box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.15s;
 }
 
 .article-box:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .article-box:nth-of-type(odd) {
-  float: left;
+    float: left;
 }
 
 .article-box:nth-of-type(even) {
-  float: right;
+    float: right;
 }
 
 .article-box .title {
-  margin-top: 30px;
-  color: #555;
-  font-size: 1.4rem;
-  line-height: 1.6;
+    margin-top: 30px;
+    color: #555;
+    font-size: 1.4rem;
+    line-height: 1.6;
 }
 
 .article-box .desc {
-  margin-top: 5px;
-  color: #333;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+    margin-top: 5px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .article-box .date {
-  position: absolute;
-  right: 0;
-  bottom: 15px;
-  display: block;
-  width: 160px;
-  padding: 4px;
-  background-color: #b5d264;
-  color: #2d3d54;
-  text-align: center;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 1.1rem;
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    display: block;
+    width: 160px;
+    padding: 4px;
+    background-color: #b5d264;
+    color: #2d3d54;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .article-box .image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 
 /* --------------------------------
  * sidemenu
  * -------------------------------- */
+
 .sidemenu {
-  float: right;
-  width: 275px;
-  color: #000;
+    float: right;
+    width: 275px;
+    color: #000;
 }
 
 .main-events {
-  margin: 10px 10px 30px;
+    margin: 10px 10px 30px;
 }
 
 .main-events,
 .main-events ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
-.main-events > li .title {
-  margin: 15px 0;
-  padding-left: 8px;
-  border-left: 5px solid orangered;
-  font-size: 1.4rem;
-  line-height: 1.2;
+.main-events>li .title {
+    margin: 15px 0;
+    padding-left: 8px;
+    border-left: 5px solid orangered;
+    font-size: 1.4rem;
+    line-height: 1.2;
 }
 
-.main-events > li + li {
-  margin-top: 25px;
-}
-.main-events > li ul {
-  margin: 15px;
+.main-events>li+li {
+    margin-top: 25px;
 }
 
-.main-events > li ul > li {
-  margin-bottom: 15px;
-  padding-left: 10px;
-  background: url('../images/arrow.gif') no-repeat left center;
+.main-events>li ul {
+    margin: 15px;
+}
+
+.main-events>li ul>li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    background: url('../images/arrow.gif') no-repeat left center;
 }
 
 .main-events a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 
 /* --------------------------------
  * footer
  * -------------------------------- */
+
 .footer {
-  width: 100%;
-  padding: 20px 0 30px;
-  background: #2d3d54;
-  text-align: center;
-  font-size: 18px;
-  color: #fff;
+    width: 100%;
+    padding: 20px 0 30px;
+    background: #2d3d54;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
 }
+
+
 /*Additional Comment Section
 **Preffered color for orangered:#d03c56;
 */
