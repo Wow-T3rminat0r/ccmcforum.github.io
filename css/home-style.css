@@ -1,0 +1,93 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+.navbar {
+    box-shadow: 0 0 10px 1px orangered;
+}
+
+.navbar-nav {
+    margin-left:30px;
+}
+
+.navbar-nav .nav-item {
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.navbar-nav .nav-item a {
+    color: orangered;
+}
+
+.col-sm-8 {
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 30pt;
+}
+
+.sidemenu {
+    color: #222222;
+}
+
+.main-events {
+    margin: 1px;
+}
+
+.main-events,
+.main-events ul {
+    list-style-type: none;
+}
+
+.main-events>li .title {
+    border-bottom: 5px solid orangered;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.main-events>li+li {
+    margin-top: 25px;
+}
+
+.main-events>li ul {
+    margin: 1px;
+}
+
+.main-events>li ul>li {
+    margin-bottom: 5px;
+}
+
+.main-events a:hover {
+    text-decoration: underline;
+}
+
+/* Application button */
+#application-button {
+    text-decoration:none;
+    text-align: center;
+}
+
+#timer-app {
+    color:green;
+}
