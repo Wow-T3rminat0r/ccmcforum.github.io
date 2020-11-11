@@ -1,73 +1,216 @@
 <!DOCTYPE html>
-<!-- イベント実行委員ホームページ -->
 <html lang="ja">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>中央情報||イベント・ホームページ</title>
-    <link rel="stylesheet" href="./../css/reset.css">
-    <link rel="stylesheet" href="./../css/style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Link to style CSS File -->
+    <link rel="stylesheet" href="./../css/home-style.css">
+
+    <title>イベント実行委員｜中央情報専門学校</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="logo">
-            <a href="https://wow-t3rminat0r.github.io/ccmcforum.github.io">中央情報専門学校・イベント</a>
-        </h1>
-        <nav class="global-nav">
-            <ul>
-                <li class="nav-item"><a href="http://ccmc.ac.jp/outcome">ホーム</a></li>
-                <li class="nav-item"><a href="./calendar-2020.html">カレンダー</a></li>
-                <li class="nav-item"><a href="./eventmgmteam.html">実行委員について</a></li>
-                <!-- On halt for further development of the articles
-        <li class="nav-item"><a href="./events.html">イベント詳細</a></li>
-        <li class="nav-item"><a href="./images.html">写真集ー2019</a></li>
-        -->
-            </ul>
-        </nav>
-    </header>
-    <div class="wrapper clearfix">
-        <strong style="margin-left:15px;color:#ff0000;font-size: medium;text-align: center;">↓↓申し込みは簡単！！下のフォームを入力するだけで終わり！！簡単でしょう！！↓↓</strong>
-        <main class="main">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCLnU3MX3XqPA25uonPW6V_pWmLzXjHYPfmNMo2ogYTjXi4g/viewform?embedded=true" width="640" height="2353" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </main>
-        <div class="sidemenu">
-            <h2 class="hidden">実行委員ホームページ</h2>
-            <h2 class="heading">2020年度イベント予定</h2>
-            <ul class="main-events">
-                <li>
-                    <h3 class="title">学修成果発表会：WEB版</h3>
-                    <ul>
-                        <li>エントリー期間：11／16〜11／20</li>
-                        <li>プレゼン動画公開：12／1〜12／11</li>
-                        <li>結果発表：12／18</li>
-                    </ul>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <!-- Logo Image & Link -->
+        <a class="navbar-brand" href="http://ccmc.ac.jp/outcome">
+            <img src="./images/logo.png" alt="イベント実行委員ーホームページ">
+        </a>
+
+        <!-- Responsive Button Menu-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <!-- Navigation Menu Bar Options -->
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="http://ccmc.ac.jp/outcome">ホーム</a></li>
                 </li>
-                <li>
-                    <h3 class="title">クリスマスパーティ</h3>
-                    <ul>
-                        <li>場所：志木パルシティホール</li>
-                        <li>パフォーマンス申込：12／11まで</li>
-                        <li>（学修成果発表会の結果発表予定）</li>
-                    </ul>
+                <li class="nav-item">
+                    <a href="./assets/calendar-2020.html">カレンダー</a>
                 </li>
-                <li>
-                    <h3 class="title">卒業制作発表会：2月中旬</h3>
-                    <ul>
-                        <li>場所：志木パルシティホール</li>
-                        <li>エントリー期間：未定</li>
-                        <li>*申し込みは2年生のみ</li>
-                    </ul>
-                </li>
+                <li class="nav-item">
+                    <a href="./assets/eventmgmteam.html">実行委員について</a>
                 </li>
             </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+
+            <!-- Side Menu Bar (Left) -->
+
+            <div class="col-sm-8">
+                <strong
+                    style="margin-left:15px;color:#ff0000;font-size: medium;text-align: center;">↓↓申し込みは簡単！！下のフォームを入力するだけで終わり！！簡単でしょう！！↓↓</strong>
+                <main class="main">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdCLnU3MX3XqPA25uonPW6V_pWmLzXjHYPfmNMo2ogYTjXi4g/viewform?embedded=true"
+                        width="640" height="2353" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </main>
+                <!-- Main Article of the homepage-->
+                <blockquote class="blockquote">
+                    <p>
+                        皆さん、こんにちは。中央情報専門学校・実行委員会のメンバーのウザルです。今年の学修成果発表会は楽しかったですね。皆のためにたくさんのことを勉強するきっかけになりましたね。<u>例えば、環境に関する食品ロースのこと、E-Commerceの話、Bootstrapを使用した中華料理のホームページ、ネパールやベトナムについての発表、事故を防ぐためのAIシステムなどです</u>。
+                    </p>
+                    <p></p>
+                    中央情報専門学校のメインイベントとした学修成果発表会は今年も行われる予定が昨日（2020年11月09日ー月曜日）に公開したところです。今年も、いい勉強になると思います。<strong><mark>ところが、</mark></strong>今年までの学修成果発表会は志木パレーシティで行われて来た伝統がありましたが今年は少しい変わります。現在のニーズを考え、特にコロナウイルスの感染防止の対策とトレンドになっている動画でのコンテンツ・クリエーション（オンライン動画公開）に学生皆さんにも参加するようになれるため今年は学修成果発表会はWEB版になります。大勢の学生の皆さんは今回のイベントは"どのようなイベントなのか？"、"どのように参加するのか"など質問を持っていると思います。
+                    </p>
+                    <p>
+
+                        <strong>
+                            <h5><mark>その質問に入る前にWEB版はなんのことでしょうか？</mark></h5>
+                        </strong>
+
+                    </p>
+                    <p>
+                        学生の皆さんYouTube、Twitch、など動画公開するプラットフォームにご存知でしょうか？TwitchはともかくYouTubeは学生の皆さんが毎日おもしろい動画を見るために使っていると思います。YouTubeではYouTuberがいっしょけんめい周りにある面白いコンテンツを探してそれを普通の携帯カメラ・動画専門カメラで撮影し、編集ソフトウェア（iMovie,
+                        Windows Movie Maker, OB Studio, HitFilm Express, Lightworks, Adobe Premiere / Spark
+                        など）を使用して作ります。その編集した動画を最後にYouTubeにアップロードします。
+                    </p>
+                    <p>
+                        皆さんは"一体なぜこんなことを言っているかな、こんなことはだれも知るべきことだ"と考えると思います。<strong><mark>なぜなら、</strong></mark>学修成果発表会もYouTubeと同じく皆さんがいろいろ学習してきたこと、授業の内容や世界で起きている環境問題に関するもの等様々な分野で自由に動画を作ってもらいます。その動画を2020年12月02日（水）から2020年12月11日（水）の間公開し、皆から評価をしてもらい2020年12月18日（金）ークリスマスパーティーで優秀なコンテンツクリエーターに賞をくれます。
+                    </p>
+                    <p>
+                        皆さん、これは面白いじゃないですか？イベントに参加しませんか？もし、皆さんに自分の発表（コンテンツ）を見てもらいたいと考えたらぜひ参加してください。
+                    </p>
+                    <footer class="blockquote-footer">
+                        Katuwal Ujjal
+                        <br />
+                        中央情報専門学校実行委員2020年
+                        <br />
+                        2020年11月10日（火）07：44
+                    </footer>
+                </blockquote>
+            </div>
+
+            <!-- Side Bar (Right) -->
+            <div class="col-sm-4">
+                <div class="sidemenu">
+
+                    <!-- 学修成果発表会：WEB版 Date & Events -->
+                    <ul class="main-events">
+                        <li>
+                            <!-- 学修成果発表会：WEB版 Deadlines -->
+                            <h1 class="title">学修成果発表会：WEB版</h1>
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-primary"><b>⓵ エントリー (フォームで申し込み)</b>
+                                    <br />→ 開催：2020年11月16日（月）
+                                    <br />→ 締め切り：2020年11月20日（金）
+                                </li>
+                                <li class="list-group-item list-group-item-primary"><b>⓶ 動画アップロード</b>
+                                    <br />→ 開催：2020年11月16日（月）
+                                    <br />→ 締め切り：2020年11月27日（金）
+                                </li>
+                                <li class="list-group-item list-group-item-success"><b>⓷ 発表の結果</b>
+                                    <br />→ 2020年12月18日（金）クリスマスパーティーのとき
+                                </li>
+                            </ul>
+                            <br />
+                            
+                            <hr>
+                            
+                            <!-- 学修成果発表会：WEB版 Countdown to form entry & deadline -->
+                            <h1 class="title">残りの時間</h1>
+                            <ul class="list-group">
+                                <strong>⓵ 申し込み</strong>
+
+                                <li class="list-group-item list-group-item-success" id="timer-app">※ 開催まで後:
+                                    <div id="countdown"></div>
+                                    <br />
+                                    <span style="color: red;font-weight: bold;">※ 締め切りまで後:</span>
+                                    <div id="newcountdown"></div>
+                                </li>
+                                <strong>⓶ 動画アップロード</strong>
+                                <li class="list-group-item list-group-item-info" id="timer-app">※ 開催まで後:
+                                    <div id="videouploadcountdown"></div>
+                                    <br />
+                                    <span style="color: red;font-weight: bold;">※ 締め切りまで後:</span>
+                                    <div id="videouploaddeadline"></div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <hr>
+                        
+                    </ul>
+                    </li>
+                    </ul>
+                    </ul>
+                    <hr class="d-sm-none">
+
+                </div>
+            </div>
+
         </div>
     </div>
 
     <!--Footer-->
-    <footer class="footer">
-        2019~20 中央情報専門学校・イベント実行委員
-    </footer>
+    <div class="jumbotron text-center" style="margin-bottom:0; font-weight: bold; font-size: medium;">
+        <p>2019~20 中央情報専門学校・イベント実行委員</p>
+        <span style="font-size: small; color: #555555; font-style: italic;">
+            お問い合わせ：manageventccmc@gmail.com
+        </span>
+    </div>
+
+    <!-- BootStrap JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- BootStrap Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- BootStrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for the countdown timer-->
+    <script>
+        CountDownTimer('11/16/2020 00:00 AM', 'countdown');
+        CountDownTimer('11/20/2020 11:53 PM', 'newcountdown');
+        CountDownTimer('11/16/2020 00:00 PM', 'videouploadcountdown');
+        CountDownTimer('11/27/2020 11:53 PM', 'videouploaddeadline');
+
+        function CountDownTimer(dt, id) {
+            var end = new Date(dt);
+
+            var _second = 1000;
+            var _minute = _second * 60;
+            var _hour = _minute * 60;
+            var _day = _hour * 24;
+            var timer;
+
+            function showRemaining() {
+                var now = new Date();
+                var distance = end - now;
+                if (distance < 0) {
+
+                    clearInterval(timer);
+                    document.getElementById(id).innerHTML = 'EXPIRED!';
+
+                    return;
+                }
+                var days = Math.floor(distance / _day);
+                var hours = Math.floor((distance % _day) / _hour);
+                var minutes = Math.floor((distance % _hour) / _minute);
+                var seconds = Math.floor((distance % _minute) / _second);
+
+                document.getElementById(id).innerHTML = days + 'days ';
+                document.getElementById(id).innerHTML += hours + 'hrs ';
+                document.getElementById(id).innerHTML += minutes + 'mins ';
+                document.getElementById(id).innerHTML += seconds + 'secs';
+            }
+
+            timer = setInterval(showRemaining, 1000);
+        }
+
+    </script>
 </body>
 
 </html>
