@@ -52,7 +52,9 @@ html {
   padding: 8px;
   margin-bottom: 7px;
   background-color: #dddddd;
-  color: #ffffff;
+  color: #333333;
+  font-size: small;
+  font-weight: bold ;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -90,13 +92,14 @@ html {
 }
 
 .event-description {
-  margin: 10px;
+  margin: 2.5px;
   text-align: justify;
   font-size: 0.95rem;
 }
 
 .google-form {
-  margin-right: 10px;
+  text-align: center;
+  margin: 2px;
 }
 
 .aside {
@@ -115,7 +118,7 @@ html {
 
 .schedule ol li {
   margin-left: 0px;
-  font-size:12px;
+  font-size:14px;
 }
 
 .footer {
